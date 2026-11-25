@@ -70,11 +70,12 @@ Marvis 免费账号 **一个号每天 1000 万计费 token**（`total_tokens`）
 ## 装
 
 ```bash
-magpie plugin add MYCF711/magpie-marvis
+magpie plugin add zuanyhuan-sudo/magpie-marvis-fix
 ```
 
-> 本修复版上传到你的仓库后，把上面的地址换成你的仓库，例如
-> `magpie plugin add <你的用户名>/magpie-marvis`。
+> 这是 **0.2.58 修复分支**：上游 `MYCF711/magpie-marvis` 已暂停维护（停在 0.2.57，
+> 含 4100404 缺陷）。装不上或想手动装，直接下载本仓库 ZIP 解压到
+> `plugins/node_modules/magpie-marvis/` 即可。
 
 装完在 magpie 设置里 **供应商 → 添加 → 腾讯 Marvis**，选登录方式：
 
